@@ -13,32 +13,45 @@ body {
 .background {
   width: 100%;
   height: 100%;
-  background-image: url(../images/background-image.jpg);
-  opacity: 0.9;
+  background-image: url(../images/background-image-2.jpg);
+  opacity: 1.9;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   overflow-y: auto;
 }
 
-.lg-heading{
+.lg-heading {
   text-decoration: underline;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 69%;
+  left: 59%;
+  font-size: 75px;
+  color: whitesmoke;
 }
 
-.sm-heading{
+.sm-heading {
   position: absolute;
-  top: 55%;
-  left: 50%;
-}
-
-.text-secondary{
+  top: 82%;
+  left: 60%;
+  font-size: 25px;
   color: goldenrod;
 }
 
-.nav{
+.text-secondary {
+  color: whitesmoke;
+}
+
+.icons {
+  font-size: 30px;
+}
+
+.fa-github {
+  top: 50px;
+  left: 50px;
+}
+
+.nav {
   width: 350px;
   height: auto;
   position: absolute;
@@ -46,10 +59,10 @@ body {
   left: 0;
 }
 
-.nav a{
+.nav a {
   text-decoration: none;
   font-size: 28px;
-  font-family:  verdana;
+  font-family: verdana;
   font-weight: bold;
   height: 75px;
   margin: 5px 0;
@@ -62,39 +75,76 @@ body {
   transition: 300ms;
 }
 
-a.active, .nav a:hover{
+a.active,
+.nav a:hover {
   background-color: goldenrod;
   color: black;
   width: 100%;
 }
 
-b.active, .nav a:hover{
+b.active,
+.nav a:hover {
   background-color: goldenrod;
   color: black;
   width: 100%;
 }
 
-c.active, .nav a:hover{
+c.active,
+.nav a:hover {
   background-color: goldenrod;
   color: black;
   width: 100%;
 }
 
-d.active, .nav a:hover{
+d.active,
+.nav a:hover {
   background-color: goldenrod;
   color: black;
   width: 100%;
 }
 
-.a{
+.a {
   width: 95%;
 }
-.b{
+.b {
   width: 85%;
 }
-.c{
+.c {
   width: 80%;
 }
-.d{
+.d {
   width: 90%;
+}
+
+/* About me */
+
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  left: 50%;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 200%;
+  width: auto;
+}
+
+#Autobiography {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.content {
+  position: absolute;
+  width: 70%;
+  min-height: 500px;
+  height: auto;
+  background-color: red;
+  right: 0;
+  top: 10%;
 }
