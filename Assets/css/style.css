@@ -131,6 +131,11 @@ img {
   display: inline;
   margin: 0 auto;
   height: 200%;
+  width: inherit;
+}
+
+#line-divider{
+  border-bottom: 2px solid goldenrod;
   width: auto;
 }
 
@@ -144,7 +149,7 @@ img {
   width: 70%;
   min-height: 500px;
   height: auto;
-  background-color: red;
+
   right: 0;
   top: 10%;
 }
