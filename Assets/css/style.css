@@ -160,7 +160,6 @@ img {
 /* Project Page */
 
 .projectDiv {
-  background-color: red;
   padding: 20px;
   margin: 5px;
   width: 700px;
@@ -168,6 +167,13 @@ img {
   margin-left: 40%;
 }
 
+h3 {
+  color: white;
+}
+
+h4 {
+  color: goldenrod;
+}
 .projectDiv .image{
   width: 23%;
   margin: 2%;
@@ -177,4 +183,35 @@ img {
 
 .image img{
   width: 100%;
+}
+
+/* Contact Page */
+
+.email {
+  border-style: double;
+  border-color: white;
+  width: 200px;
+  height: auto;
+  margin: 5px;
+}
+
+.phone {
+  border-style: double;
+  border-color: white;
+  width: 200px;
+  height: auto;
+  margin: 5px;
+}
+
+.address {
+  border-style: double;
+  border-color: white;
+  width: 200px;
+  height: auto;
+  margin: 5px;
+}
+
+#QRCode {
+  height: 150px;
+  width: 200px;
 }
