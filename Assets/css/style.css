@@ -187,6 +187,14 @@ h4 {
 
 /* Contact Page */
 
+.ContactDiv {
+  padding: 20px;
+  margin: 5px;
+  width: 700px;
+  height: 600px;
+  margin-left: 40%;
+}
+
 .email {
   border-style: double;
   border-color: white;
