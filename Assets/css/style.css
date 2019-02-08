@@ -157,6 +157,31 @@ img {
   top: 10%;
 }
 
+.faIcon a{
+  width:80px;
+  height: 80px;
+  background: black;
+  text-align: center;
+  line-height: 80px;
+  font-size: 14px;
+  margin: 0 5px;
+
+  position: relative;
+  overflow: hidden;
+  border: 17px solid black;
+}
+
+.faIcon a .fa{
+  position: relative;
+  color: white;
+  transition: 1s;
+}
+
+.faIcon a:hover .fa{
+  transform: rotateY(360deg);
+ color: goldenrod;
+}
+
 /* Project Page */
 
 .projectDiv {
@@ -171,7 +196,7 @@ h3 {
   color: white;
 }
 
-h4 {
+h2 {
   color: goldenrod;
 }
 .projectDiv .image{
@@ -185,14 +210,51 @@ h4 {
   width: 100%;
 }
 
+.gitHubImg a{
+  width:80px;
+  height: 80px;
+  background: black;
+  text-align: center;
+  line-height: 80px;
+  font-size: 14px;
+  margin: 0 5px;
+
+  position: relative;
+  overflow: hidden;
+  border: 17px solid black;
+}
+
+.gitHubImg a .fa{
+  position: relative;
+  color: white;
+  transition: .5s;
+}
+
+.gitHubImg a:hover .fa{
+  transform: rotateY(360deg);
+ color: goldenrod;
+}
+
 /* Contact Page */
 
-.ContactDiv {
+#contactDiv{
+  display: inline-grid;
+  font-size: 25px;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.contactHeader {
   padding: 20px;
   margin: 5px;
   width: 700px;
   height: 600px;
   margin-left: 40%;
+}
+
+#contactMiniBox{
+  display: inline-flex;
+  color: white;
 }
 
 .email {
@@ -203,23 +265,17 @@ h4 {
   margin: 5px;
 }
 
-.phone {
+.SM {
   border-style: double;
   border-color: white;
   width: 200px;
   height: auto;
   margin: 5px;
-}
-
-.address {
-  border-style: double;
-  border-color: white;
-  width: 200px;
-  height: auto;
-  margin: 5px;
+  color: white;
 }
 
 #QRCode {
   height: 150px;
   width: 200px;
+  color: white;
 }
