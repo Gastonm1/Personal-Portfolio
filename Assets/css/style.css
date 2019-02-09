@@ -131,14 +131,7 @@ d.active,
   left: 50%;
 }
 
-img {
-  display: inline;
-  margin: 0 auto;
-  height: 200%;
-  width: inherit;
-}
-
-#line-divider{
+#line-divider {
   border-bottom: 2px solid goldenrod;
   width: auto;
 }
@@ -157,8 +150,8 @@ img {
   top: 10%;
 }
 
-.faIcon a{
-  width:80px;
+.faIcon a {
+  width: 80px;
   height: 80px;
   background: black;
   text-align: center;
@@ -171,15 +164,15 @@ img {
   border: 17px solid black;
 }
 
-.faIcon a .fa{
+.faIcon a .fa {
   position: relative;
   color: white;
   transition: 1s;
 }
 
-.faIcon a:hover .fa{
+.faIcon a:hover .fa {
   transform: rotateY(360deg);
- color: goldenrod;
+  color: goldenrod;
 }
 
 /* Project Page */
@@ -199,45 +192,45 @@ h3 {
 h2 {
   color: goldenrod;
 }
-.projectDiv .image{
+.projectDiv .image {
   width: 23%;
   margin: 2%;
   float: left;
   color: white;
 }
 
-.image img{
-  width: 100%;
+.projectList {
+  display: inline-block;
+  height: auto;
+  width: auto;
 }
 
-.gitHubImg a{
-  width:80px;
-  height: 80px;
-  background: black;
-  text-align: center;
-  line-height: 80px;
-  font-size: 14px;
-  margin: 0 5px;
-
-  position: relative;
-  overflow: hidden;
-  border: 17px solid black;
+#projectList img {
+  height: 200px;
+  width: 250px;
 }
 
-.gitHubImg a .fa{
-  position: relative;
+#projectList h4 {
   color: white;
-  transition: .5s;
 }
 
-.gitHubImg a:hover .fa{
+#projectList p {
+  color: white;
+}
+
+.gitHubImg a .fa {
+  color: white;
+  transition: 0.5s;
+}
+
+.gitHubImg a:hover .fa {
   transform: rotateY(360deg);
- color: goldenrod;
+  color: goldenrod;
 }
 
 /* Contact Page */
 
-#contactDiv{
+#contactDiv {
   display: inline-grid;
   font-size: 25px;
   margin-left: 25%;
@@ -252,7 +245,7 @@ h2 {
   margin-left: 40%;
 }
 
-#contactMiniBox{
+#contactMiniBox {
   display: inline-flex;
   color: white;
 }
@@ -274,8 +267,8 @@ h2 {
   color: white;
 }
 
-#QRCode {
-  height: 150px;
+#QRCode img{
+  height: 220px;
   width: 200px;
   color: white;
 }
